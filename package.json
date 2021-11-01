@@ -1,0 +1,23 @@
+{
+  "name": "steel_series_coding_project",
+  "version": "1.0.0",
+  "description": "FFMPEG Video String",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --trace-warnings server",
+    "server": "nodemon --trace-warnings server",
+    "dev": "npm run server"
+  },
+  "author": "Christopher Kohler",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.1",
+    "mongoose": "^5.11.8",
+    "normalize-url": "^5.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
